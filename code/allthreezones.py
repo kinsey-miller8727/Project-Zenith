@@ -194,7 +194,7 @@ combined_games_cleaned = (
         .then(pl.col("Pressure").str.head(pl.col("Pressure").str.len_chars()-3))
         .otherwise(pl.col("Pressure"))
         .alias("pressureSkater"),
-
+        
         pl.when(pl.col("Pressure").str.len_chars() > 1)
         .then(pl.col("Pressure").str.tail(3))
         .otherwise(pl.col("Pressure"))
