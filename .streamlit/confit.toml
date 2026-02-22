@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+
+# Accent color used by toggles, checkboxes, sliders, radio buttons, etc.
+primaryColor = "#2A4D72"              # THEME["secondary"]
+
+# App background
+backgroundColor = "#F7F8FA"           # THEME["background"]
+
+# Cards, expanders, sidebar blocks, table headers
+secondaryBackgroundColor = "#F3F4F6"  # close match to header_bg / final_row
+
+# Main text color
+textColor = "#1F2933"                 # THEME["text_primary"]
+
+# Borders & dividers (supported in newer Streamlit versions)
+borderColor = "rgba(47, 58, 74, 0.25)" # THEME["border"]

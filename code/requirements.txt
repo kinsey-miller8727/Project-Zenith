@@ -1,0 +1,13 @@
+.\.venv\Scripts\python -m pip install 
+streamlit
+streamlit-aggrid       
+polars
+pandas
+plotly
+plotly.express
+html
+os
+math
+matplotlib
+matplotlib.pyplot
+xlsxwriter

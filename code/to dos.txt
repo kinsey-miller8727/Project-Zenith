@@ -1,0 +1,38 @@
+.\.venv\Scripts\python -m pip install lib
+
+
+
+TO DO 
+- implement shift charts from html :((((((((
+- add toi to player table  
+    - did this but the shift strength logic is wrong
+
+
+
+
+impact metrics
+- corsi
+- fenwick
+- scoring chances
+- xG
+
+situation metrics
+- toi
+- QoC
+- QoT
+- OZS
+- WoWY
+
+performance metrics
+- iCF
+- ixG
+- shot assists
+- zone entries
+- zone exits
+- isolated impact
+
+value metrics
+- game score
+- game score value added
+- goals above replacement
+- wins above replacement
